@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    max-width: 500px;
+}
+
+.carta {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Young Serif" , sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif" , sans-serif;
+    font-weight: 400;
+}
+
+li {
+    font-family: "Outfit" , sans-serif;
+}
+
+strong {
+    color: hsl(24, 5%, 18%);
+}
+
+.presentacion p {
+    font-family: "Outfit" , sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+.preparacion {
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit" , sans-serif;
+    border-radius: 8px;
+    padding: 2px 20px;
+}   
+
+.preparacion ul li {
+    font-size: 11px;
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 10px;
+}
+
+.preparacion li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredientes li {
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+.ingredientes li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instrucciones li {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.instrucciones li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutricion p {
+    font-size: 11px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit" , sans-serif
+}
+
+.nutrientes {
+    margin-left: 20px;
+}
+
+p.nutrientes {
+    position: relative; /* Establece una posición relativa para el párrafo */
+}
+  
+p.nutrientes strong {
+    position: absolute;
+    left: 210px;
+    color: hsl(14, 45%, 36%);
+}
+
+@media only screen and (max-width: 600px) {
+    *{
+        max-width: 375px;
+        margin: 0 auto;
+    }
+    h2 {
+        margin: 15px 0;
+    }
+    .separador-lista {
+        margin-top: 30px;
+    }
+    .nutrientes {
+        margin: 10px 0;
+    }
+}
+
