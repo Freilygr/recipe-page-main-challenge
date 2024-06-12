@@ -115,6 +115,9 @@ p.nutrientes strong {
     h2 {
         margin: 15px 0;
     }
+    .preparacion__titulo {
+        margin: 10px 0;
+    }
     .separador-lista {
         margin-top: 30px;
     }
